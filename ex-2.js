@@ -23,23 +23,11 @@ const Alicia = {
   age: 29,
   hobbies: ["Shopping", "Reading novels"],
 };
-<<<<<<< HEAD
-      employees.push(Alicia); 
-
-=======
->>>>>>> origin/pim
 const Kody = {
   name: "Kody",
   age: 19,
   hobbies: ["Computer games", "Wakeboard"],
 };
-<<<<<<< HEAD
-      employees.push(Kody);
-      console.log(updateEmployees);
-
-      updateEmployees.pop()
-      console.log(updateEmployees);
-=======
 updateEmployees.push(Alicia, Kody);
 
 console.log(updateEmployees); //แสดงผล updateEmployees
@@ -48,4 +36,3 @@ employees.pop(Kody);
 
 console.log(employees);
 console.log(updateEmployees); //ไม่แสดงผล Kody
->>>>>>> origin/pim
