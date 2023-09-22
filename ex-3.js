@@ -49,6 +49,7 @@ let isArray = orders;
 
 let creditCardTypeOfBlindermann = orders[2].creditCardType;
    orders[2].creditCardType = "visa";
+   console.log(orders[2].creditCardType)
 
 let totalPurchaseOfJoannet = orders[3].productQuantity;
 
@@ -56,3 +57,4 @@ let totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity;
    orders.pop()
 
    console.log(orders);
+   console.log(totalPurchaseOfDary);
