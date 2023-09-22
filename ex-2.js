@@ -12,14 +12,10 @@ const employees = [
   },
 ];
 // Start coding here
-
-let alex = employees[1].hobbies.push("Watching basketball");;
+let alex = employees[1].name;
+employees[1].hobbies.push("Watching basketball");
 let alexHobbies = employees[1].hobbies;
 let alexAndJamesAge = employees[0].age + employees[1].age;
-
-      console.log(employees[1].hobbies)
-      console.log(alexHobbies)
-      console.log(alexAndJamesAge)
 
 const updateEmployees = employees;
 const Alicia = {
@@ -27,15 +23,29 @@ const Alicia = {
   age: 29,
   hobbies: ["Shopping", "Reading novels"],
 };
+<<<<<<< HEAD
       employees.push(Alicia); 
 
+=======
+>>>>>>> origin/pim
 const Kody = {
   name: "Kody",
   age: 19,
   hobbies: ["Computer games", "Wakeboard"],
 };
+<<<<<<< HEAD
       employees.push(Kody);
       console.log(updateEmployees);
 
       updateEmployees.pop()
       console.log(updateEmployees);
+=======
+updateEmployees.push(Alicia, Kody);
+
+console.log(updateEmployees); //แสดงผล updateEmployees
+
+employees.pop(Kody);
+
+console.log(employees);
+console.log(updateEmployees); //ไม่แสดงผล Kody
+>>>>>>> origin/pim

@@ -44,17 +44,17 @@ let orders = [
 ];
 
 // Start coding here
-let isArray = orders;
-   console.log(Array.isArray(orders));
-
+let isArray = Array.isArray(orders);
 let creditCardTypeOfBlindermann = orders[2].creditCardType;
-   orders[2].creditCardType = "visa";
-   console.log(orders[2].creditCardType)
 
 let totalPurchaseOfJoannet = orders[3].productQuantity;
-
 let totalPurchaseOfDary = orders[1].productPrice * orders[1].productQuantity;
-   orders.pop()
+orders.shift();
 
-   console.log(orders);
-   console.log(totalPurchaseOfDary);
+console.log(isArray);
+console.log(creditCardTypeOfBlindermann);
+orders[2].creditCardType = "visa";
+console.log(orders[2].creditCardType);
+console.log(totalPurchaseOfJoannet);
+console.log(totalPurchaseOfDary);
+console.log(orders);

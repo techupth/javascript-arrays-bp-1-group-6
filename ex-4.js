@@ -3,6 +3,7 @@
 // Start coding here
 const student = {
   name: "John Doe",
+  age: 18, //เพิ่ม age
   grade: 12,
   subjects: ["Math", "Science", "History"],
 };
