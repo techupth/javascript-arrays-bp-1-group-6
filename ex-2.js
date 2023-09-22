@@ -12,7 +12,27 @@ const employees = [
   },
 ];
 // Start coding here
-let alex;
-let alexHobbies;
-let alexAndJamesAge;
+let alex = employees[1].name;
+employees[1].hobbies.push("Watching basketball");
+let alexHobbies = employees[1].hobbies;
+let alexAndJamesAge = employees[0].age + employees[1].age;
+
 const updateEmployees = employees;
+const Alicia = {
+  name: "Alicia",
+  age: 29,
+  hobbies: ["Shopping", "Reading novels"],
+};
+const Kody = {
+  name: "Kody",
+  age: 19,
+  hobbies: ["Computer games", "Wakeboard"],
+};
+updateEmployees.push(Alicia, Kody);
+
+console.log(updateEmployees); //แสดงผล updateEmployees
+
+employees.pop(Kody);
+
+console.log(employees);
+console.log(updateEmployees); //ไม่แสดงผล Kody
